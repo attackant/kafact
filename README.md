@@ -1,6 +1,4 @@
-# KAFACT
-
-**K**ick **A**ss **F**ree **A**udio **C**leanup **T**ool
+# KAFACT ⚡︎ **K**ick **A**ss **F**ree **A**udio **C**leanup **T**ool
 
 A powerful local solution for processing videos with professional-grade audio enhancements, without the cost or limitations of cloud services like Auphonic.
 
