@@ -10,7 +10,7 @@
 # Default locations
 INPUT_DIR="$HOME/Videos/raw"
 OUTPUT_DIR="$HOME/Videos/processed"
-PRESET_FILE="$HOME/Videos/youtube_preset.conf"
+PRESET_FILE="$HOME/Videos/kafact/youtube_preset.conf"
 SINGLE_FILE=""
 LOG_FILE="$HOME/Videos/kafact_log.txt"
 DRY_RUN=false
