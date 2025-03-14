@@ -181,5 +181,6 @@ If you find this tool useful, consider:
 - Starring the repository
 - Sharing it with other creators
 - Contributing improvements
+- Fork it, go crazy, do your thing
 
 For questions or support, open an issue on GitHub.
