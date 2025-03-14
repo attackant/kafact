@@ -47,10 +47,6 @@ cd kafact
 
 # Make the script executable
 chmod +x kafact.sh
-
-# Copy preset file to your home directory
-mkdir -p ~/Videos
-cp presets/youtube_preset.conf ~/Videos/
 ```
 
 ### Ubuntu/Debian
@@ -69,7 +65,6 @@ chmod +x kafact.sh
 
 # Copy preset file to your home directory
 mkdir -p ~/Videos
-cp presets/youtube_preset.conf ~/Videos/
 ```
 
 ## Quick Start
@@ -117,10 +112,10 @@ The preset file contains well-documented settings for:
 Copy the default preset to create specialized versions:
 
 ```
-cp ~/Videos/youtube_preset.conf ~/Videos/podcast_preset.conf
+cp ~/Videos/kafact/youtube_preset.conf ~/Videos/kafact/podcast_preset.conf
 ```
 
-Then edit to match your specific needs.
+Then edit to match your specific needs. (Where `~/Videos/kafact/` is the folder you cloned the repo.)
 
 ## Workflow Tips
 
