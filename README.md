@@ -1,6 +1,6 @@
 # KAFACT ⚡︎ **K**ick **A**ss **F**ree **A**udio **C**leanup **T**ool
 
-A powerful local solution for processing videos with professional-grade audio enhancements, without the cost or limitations of cloud services like Auphonic.
+A powerful local solution for processing videos with professional-grade audio enhancements, without the cost or limitations of cloud services like Auphonic. Thanks to Auphonic for the inspriation, I think they have a cool service if you need more freatures, including an API. Check 'em out.
 
 Backstory is that I wanted cleaner audio for [my YouTube channel](https://www.youtube.com/@RenaissanceDaddy) without using fancy mics, and found some cloud services that could do this, but for the upload times were killing me, so I made this Bash script.
 
