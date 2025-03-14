@@ -23,10 +23,11 @@ KAFACT uses FFmpeg to apply a series of audio enhancements similar to what comme
 - Silence detection and removal
 - Metadata embedding
 
-## Requirements
-
-- FFmpeg
-- Bash shell
+## Requirements / Prerequisites
+   - FFmpeg (v4.0 or higher recommended)
+   - Bash shell (v4.0 or higher)
+   - Basic command line knowledge
+   - Storage space (processed videos may be similar in size to originals)
 - Basic command line knowledge
 
 ## Installation
@@ -136,6 +137,34 @@ You can set up automations to:
 - Process videos when they're copied to a specific folder
 - Run KAFACT automatically when your phone is connected
 - Create scheduled batch processing jobs
+
+### **Command Examples**:
+
+   ```
+   # Process with detailed output
+   ./kafact.sh --verbose
+   
+   # Show commands without executing (for testing)
+   ./kafact.sh --dry-run
+   
+   # Force overwrite of existing files
+   ./kafact.sh --force
+   ```
+
+   ## Troubleshooting
+   
+   ### Common Issues
+   
+   - **"No MP4 files found"**: Ensure your videos are in the correct input directory and have .mp4 extension
+   - **FFmpeg errors**: Make sure you have the latest version of FFmpeg installed
+   - **Processing seems slow**: Video processing is CPU-intensive; consider using a shorter preset for quicker processing
+   
+   Check the log file at `~/Videos/kafact_log.txt` for detailed error information.
+
+   ## Version History
+   
+   - **v1.1** - Added single file processing, dry run mode, and better error handling
+   - **v1.0** - Initial release with basic audio enhancement functionality
 
 ## Contributing
 
