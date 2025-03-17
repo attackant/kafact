@@ -28,7 +28,6 @@ KAFACT uses FFmpeg to apply a series of audio enhancements similar to what comme
    - Bash shell (v4.0 or higher)
    - Basic command line knowledge
    - Storage space (processed videos may be similar in size to originals)
-- Basic command line knowledge
 
 ## Installation
 
